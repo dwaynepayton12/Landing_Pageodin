@@ -1,21 +1,61 @@
-header{
-    background-color: #1F2937;
-    color: white;
+body{
+    background-color: #ffff;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
 }
-.container {
-    height: 140px;
-    padding: 16px;
-    background: white;
-    border: 4px solid blue;
+.container{
     display: flex;
-    justify-content: center;
-  }
-.item {
-    width: 120px;
-    height: 120px;
-    border: 4px solid blue;
-    background: white;
-
     flex-direction: row;
-    align-items: horizontal;
-  }
+}
+.navbar {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 0px;
+    align-items: right;
+}
+.header-link{
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;  
+}
+.header-link a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+.fighters{
+    display: flex;
+    flex-basis: 20px;
+    flex-direction: column;
+    text-align: left;
+    color: #F9FAF8;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    padding: 50px;
+}
+.sign{
+    display: flex;
+    color: #F9FAF8;
+    font-size: 10px;
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: left;
+}
+p{
+    font-family: 'Roboto', arial;
+}
+.sign-item 
+.signs-button{
+    background-color: #3882F6;
+}
+footer{
+    background-color: grey;
+}
