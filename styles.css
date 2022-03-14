@@ -5,10 +5,6 @@ body{
     text-align: center;
     font-family: 'Roboto', arial;
 }
-.container{
-    display: flex;
-    flex-direction: row;
-}
 .navbar {
     display: flex;
     color: #F9FAF8;
@@ -28,20 +24,34 @@ body{
     padding: 10px;
     font-family: 'Roboto', arial;
 }
-.fighters{
+.flex-container{
     display: flex;
-    flex-basis: 20px;
-    flex-direction: column;
+    flex-direction: row;
     text-align: left;
-    color: #F9FAF8;
-    background-color: white;
+}
+.flex-container div{
     color: black;
     justify-content: center;
-    align-items: center;
-    border: 2px solid blue;
-    padding: 50px;
+    padding: 50px 0px 50px 0px;
 }
-.sign{
+.flex-container img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    border: 6px solid blue;
+}
+.bx-quote{
+    display: flex;
+    font-size: 36px;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+    padding: 0 200px;
+}
+
+.logo{
     display: flex;
     color: #F9FAF8;
     font-size: 10px;
@@ -49,13 +59,22 @@ body{
     padding: 20px;
     text-align: left;
 }
-p{
+.sign-item {
+    display: flex;
+    text-align: center;
+    background-color: lightblue;
+}
+.signs-text{
+    display: flex;
+    font-size: 28px;
+    background-color: lightblue;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
     font-family: 'Roboto', arial;
 }
-.sign-item 
-.signs-button{
-    background-color: #3882F6;
-}
-footer{
-    background-color: grey;
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
 }
